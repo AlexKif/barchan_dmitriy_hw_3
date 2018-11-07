@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>hw-3</title>
+<link rel="stylesheet" href="style-hw3.css">
+</head>
+
+<body>
+    <form>
+
+    <fieldset>
+        <legend><b>Коротко о себе</b></legend>
+        <label>
+            Имя:
+            <input type="text" name="name" required autofocus>
+        </label>
+        <br>
+        <label>
+            Фамилия:
+            <input type="text" name="surname" required>
+        </label>
+        <br>
+        Пол:
+        <label>
+            <input type="radio" name="radio">
+            Мужской
+        </label>
+        <label>
+            <input type="radio" name="radio">
+            Женский
+        </label>
+        <br>
+        <label>
+            Возраст:
+            <input type="text" name="text" required placeholder="Введите возраст">
+            лет
+        </label>
+    </fieldset>
+
+    
+    <fieldset>
+            <legend><b>Подробнее о себе</b></legend>
+            <label>
+                <input type="radio" name="radio_2">
+                Молодой человек
+            </label>
+                <br>
+            <label>
+                <input type="radio" name="radio_2">
+                Девушка
+                <br>
+            </label>
+            <label>
+                <input type="text">
+                Дата рождения
+            </label>
+                <br>
+            <label>
+                <input type="text">
+                Семейное положение
+            </label>
+                <br>
+            <label>
+                <input type="text">
+                Социальный статус
+            </label>
+                <br>
+            <label>
+                <input type="text">
+                Местожительство
+            </label>
+            <p><b>Что вы обычно делаете на выходных:</b></p>
+            <label>
+                <input type="checkbox">
+                Сплю
+            </label>
+            <br>
+            <label>
+                <input type="checkbox">
+                Гуляю с друзьями
+            </label>
+            <br>
+            <label>
+                <input type="checkbox">
+                Хожу на рыбалку
+            </label>
+            <br>
+            <label>
+                <input type="checkbox">
+                Играю в игры
+            </label>
+            <br>
+            <p><b>Рассказать о формах в книге, посвященной HTML:</b></p>
+            <select >
+                <option value="">Site frequecy:</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </select>
+            <br>
+            <b>Сколько книг вы прочитали за свою жизнь:</b>
+            <br>
+            <label>
+                <input type="radio" name="radio_3">
+                0-10
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="radio_3">
+                11-20
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="radio_3">
+                21-50
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="radio_3">
+                50+
+            </label>
+            <br>
+            <b>Ваши комментарии:</b>
+            <br>
+            <textarea name="text" cols="40" rows="7"></textarea>
+            <br>
+            <select >
+                    <option value="">Первая позиция</option>
+                    <option value="">Вторая позиция</option>
+                    <option value="">Третья позиция</option>
+                </select>
+        </fieldset>
+
+
+        <fieldset>
+            <legend><b>И в заключении</b></legend>
+            <input class="width" type="text" placeholder="Это поле было введено до вас">
+            <br>
+            <label>
+            <b>Email:</b>
+            <br>
+            <input class="width" type="email" name="email">
+            </label>
+            <br>
+            <b>Хотите подписаться на самую модную рассылку спама?</b>
+            <br>
+            <em>Выберите категории:</em>
+            <br>
+            <label>
+                <input type="checkbox">
+                Оборудование
+                <br>
+            </label>
+            <label>
+                <input type="checkbox">
+                Как приготовить обеды
+                <br>
+            </label>
+            <label>
+                <input type="checkbox">
+                Заработай миллион за два дня!
+                <br>
+            </label>
+            <br>
+            <b>На сколько сложная задача:</b>
+             <br>
+            <label>
+                <input type="radio" name="radio_4">
+                Совсем нет
+                <br>
+            </label>
+            <label>
+                <input type="radio" name="radio_4">
+                Так себе
+                <br>
+            </label>
+            <label>
+                <input type="radio" name="radio_4">
+                Еле справились
+                <br>
+            </label>
+        </fieldset>
+
+        <input type="button" value="Отправить">
+
+    </form>
+
+</body>
+</html>
